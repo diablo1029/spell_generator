@@ -176,19 +176,19 @@ print (darkPoints_names, lightPoints_names, firePoints_names, waterPoints_names,
 magicElement = [fire, water, earth, air, light, dark]
 if (int(water) == 16) and (int(air) == 16):
     print ("You have unlocked the magic element 'Ice'.\nIce can only be accessed when your water and air base elements are 16.")
-elif (int(water) == 16) and (int(earth) == 16):
+if (int(water) == 16) and (int(earth) == 16):
     print ("You have unlocked the magic element 'Mud'.\nMud can only be accessed when your water and earth base elements are 16.")
-elif (int(water) == 16) and (int(light) == 16):
+if (int(water) == 16) and (int(light) == 16):
     print ("You have unlocked the magic element 'Crystal'.\nCrystal can only be accessed when your water and light base elements are 16.")
-elif (int(water) == 16) and (int(dark) == 16):
+if (int(water) == 16) and (int(dark) == 16):
     print ("You have unlocked the magic element 'Poison'.\nPoison can only be accessed when your water and dark base elements are 16.")
-elif (int(fire) == 16) and (int(light) == 16):
+if (int(fire) == 16) and (int(light) == 16):
     print ("You have unlocked the magic element 'Electricity'.\nElectricity can only be accessed when your fire and light base elements are 16.")
-elif (int(fire) == 16) and (int(earth) == 16):
+if (int(fire) == 16) and (int(earth) == 16):
     print ("You have unlocked the magic element 'Magma'.\nMagma can only be accessed when your fire and earth base elements are 16.")
-elif (int(fire) == 16) and (int(dark) == 16):
+if (int(fire) == 16) and (int(dark) == 16):
     print ("You have unlocked the magic element 'Fear'.\nFear can only be accessed when your fire and dark base elements are 16.")
-elif (int(fire) == 16) and (int(air) == 16):
+if (int(fire) == 16) and (int(air) == 16):
     print ("You have unlocked the magic element 'Heat'.\nHeat can only be accessed when your fire and air base elements are 16.")
 
 ready = input("Are you ready to start your adventure y/n?")
